@@ -1,0 +1,41 @@
+.cuadrado {
+    width: 800px;
+    /* Ancho de 800 píxeles */
+    height: 800px;
+    /* Alto de 800 píxeles */
+    background: rgb(255, 255, 255);
+    /* Fondo de color blanco */
+    border: 5px solid #000;
+    /* Borde color negro y de 5 píxel de grosor */
+    margin: auto;
+    margin-top: 80px;
+    display: block;
+
+}
+
+.nombre, .titulo{
+    text-align: center  ;
+}
+
+#cuadrado_juego{
+    background-repeat:no-repeat;
+    
+}
+
+.boton_jugar {
+    
+    margin-left: 890px;
+    margin-top: 50px;
+    border: none;
+    padding: 0.5rem 1rem;
+    background: #d90e52;
+    color: white;
+    cursor: pointer;
+
+}
+
+.mapa{
+    width:800px ;
+    height: 800px;
+}
+
