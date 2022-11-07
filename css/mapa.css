@@ -58,4 +58,27 @@ a{
     color: aliceblue;
 }
 
+
+.recompensa{
+    display: block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin:auto;
+    padding: 15px 200px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.recompensa:hover {
+    background-color: transparent;
+    border: 2px solid #7A36D4;
+    color: aliceblue;
+}
+
 #cofre{display:none;}
+#boton1{display:none;}
+#premio{display:none;}

@@ -12,12 +12,12 @@ function sumarPuntos() {
     document.getElementById("jugador").style.marginTop = numeroRandom + "px";
     document.getElementById("jugador").style.marginLeft = numeroRandom2 + "px";
 
-    if (puntos == 30) {
+    if (puntos == 2) {
         document.getElementById('h1').style.display = 'none';
         document.getElementById('win').style.display = 'block';
         document.getElementById('contenedor').style.display = 'none';
         document.getElementById('puntos').style.display = 'none';
-        document.getElementById('boton').style.display = 'block';
+        document.getElementById('premio').style.display = 'block';
 
     }
 

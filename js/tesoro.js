@@ -63,10 +63,14 @@ $mapa.addEventListener('click', function (e) {
     document.getElementById('h1').style.display = 'none';
     document.getElementById('mapa').style.display = 'none';
     document.getElementById('cofre').style.display = 'block';
+    document.getElementById('premio').style.display = 'block';
+    $distancia.innerHTML=null;
 
       
    
     
   }
+
+ 
 
 })
