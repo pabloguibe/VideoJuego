@@ -1,0 +1,112 @@
+.cuadrado {
+    width: 800px;
+    /* Ancho de 800 píxeles */
+    height: 800px;
+    /* Alto de 800 píxeles */
+    background: rgb(255, 255, 255);
+    /* Fondo de color blanco */
+    border: 5px solid #000;
+    /* Borde color negro y de 5 píxel de grosor */
+    margin: auto;
+    margin-top: 80px;
+    display: block;
+
+}
+
+.nombre,
+.titulo {
+    text-align: center;
+}
+
+#cuadrado_juego {
+    background-image: url("../images/inicio.jpg");
+}
+
+.boton_jugar {
+
+
+    border: none;
+    padding: 10%;
+    background: #d90e52;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.pesonaje {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+}
+
+.personaje.moviendo {
+    animation-duration: 1s;
+    animation-name: moviendo;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes moviendo {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 400px;
+    }
+}
+
+body {
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(29, 28, 28);
+}
+
+ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+   
+}
+
+li {
+    margin-right: 10px;
+    list-style-type: none;
+    font-size:10%;
+    
+}
+
+li:hover {
+    background: rgb(3, 3, 3);
+}
+
+table, ul, li {
+    border:4px solid black;
+    font-family:'Courier New', Courier, monospace;
+    padding: 8px;
+    margin: auto;
+    font-size:100%;
+    text-align:center;
+    
+}
+
+h1{
+    color:aliceblue;
+}
+
+nav {
+    background-color: #605b5b;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}

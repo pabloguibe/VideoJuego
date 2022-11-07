@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <link href="../css/pillalo.css" rel="stylesheet" type="text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/mapa.css" rel="stylesheet" type="text/css">
-    <title>El tesoro de Pablo</title>
-
-  
-
+    <title>Pillalo si puedes</title>
 </head>
-
 <body>
     <nav>
         <ul>
@@ -32,17 +27,24 @@
             </li>
             </ul>
           </nav>
-       <h1 id="h1">Busca el tesoro escondido</h1> 
+       <h1 id="h1">Pillalo si puedes!!!</h1> 
+
+    <img src="../images/Game Over.jpg" alt="gameover" id="gameover" width="400" height="400">
+    <img src="../images/win.jpg" alt="win" id="win" width="400" height="400">
+
+    <div class="contenedor puntos" id="puntos" >
+        <p id="puntos"></p>
+        <p id="ned"></p>
+        <p id="tiempo"></p>
         
-    <img src="../images/mapa.png" alt="mapa" id="mapa" width="400" height="400">
-    <img src="../images/cofre abierto.png" alt="cofre" id="cofre" width="400" height="400">
-        
-    <p id="distancia"></p>
-        
-       <script src="../js/tesoro.js"></script>
-       
+    </div>
+    <div class="contenedor" id="contenedor">
+        <div id="jugador"></div>
 
     </div>
-</body>
 
+
+    <button id="boton" onclick="recargarJuego()">VOLVER A JUGAR</button>
+    <script src="../js/pillalo.js"></script>
+</body>
 </html>
