@@ -12,7 +12,7 @@ function sumarPuntos() {
     document.getElementById("jugador").style.marginTop = numeroRandom + "px";
     document.getElementById("jugador").style.marginLeft = numeroRandom2 + "px";
 
-    if (puntos == 2) {
+    if (puntos == 30) {
         document.getElementById('h1').style.display = 'none';
         document.getElementById('win').style.display = 'block';
         document.getElementById('contenedor').style.display = 'none';
